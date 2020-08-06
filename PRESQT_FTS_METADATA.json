@@ -1,0 +1,62 @@
+{
+    "allKeywords": [],
+    "actions": [
+        {
+            "id": "92d94270-8d8f-44ef-94b2-baca8dc6a92b",
+            "details": "PresQT Transfer from OSF to GitHub",
+            "actionDateTime": "2020-08-06 15:19:36.865138+00:00",
+            "actionType": "resource_transfer_in",
+            "sourceTargetName": "osf",
+            "sourceUsername": "PresQT QA",
+            "destinationTargetName": "github",
+            "destinationUsername": "PresQT-QA-TEST",
+            "keywords": {
+                "sourceKeywordsAdded": [],
+                "sourceKeywordsEnhanced": [],
+                "enhancer": "scigraph"
+            },
+            "files": {
+                "created": [
+                    {
+                        "destinationPath": "/Project15/Study1_COVID19_Closeness.sav",
+                        "destinationHashes": {},
+                        "failedFixityInfo": [
+                            {
+                                "NewGeneratedHash": "d4bc359520ade96e5e8ba9a7140f064e",
+                                "algorithmUsed": "md5",
+                                "reasonFixityFailed": "Either the destination did not provide a hash or fixity failed during upload."
+                            }
+                        ],
+                        "title": "Study1_COVID19_Closeness.sav",
+                        "sourceHashes": {
+                            "md5": "d4bc359520ade96e5e8ba9a7140f064e",
+                            "sha256": "24e0a61a20134294b401a866434ed3f3c02abee0bafa707f261697cea592d40a"
+                        },
+                        "sourcePath": "/Covid-19/osfstorage/osfstorage/Study1_COVID19_Closeness.sav",
+                        "extra": {
+                            "id": "5f244c625f705a00fe61a700",
+                            "parent_project_id": "wvy73",
+                            "endpoint": "https://api.osf.io/v2/files/5f244c625f705a00fe61a700/",
+                            "download_url": "https://files.osf.io/v1/resources/wvy73/providers/osfstorage/5f244c625f705a00fe61a700",
+                            "upload_url": "https://files.osf.io/v1/resources/wvy73/providers/osfstorage/5f244c625f705a00fe61a700",
+                            "delete_url": "https://files.osf.io/v1/resources/wvy73/providers/osfstorage/5f244c625f705a00fe61a700",
+                            "last_touched": null,
+                            "date_modified": "2020-07-31T16:52:50.355914Z",
+                            "current_version": 1,
+                            "date_created": "2020-07-31T16:52:50.355914Z",
+                            "provider": "osfstorage",
+                            "path": "/5f244c625f705a00fe61a700",
+                            "current_user_can_comment": true,
+                            "guid": null,
+                            "checkout": null,
+                            "tags": [],
+                            "size": 1024433
+                        }
+                    }
+                ],
+                "updated": [],
+                "ignored": []
+            }
+        }
+    ]
+}
